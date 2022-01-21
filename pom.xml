@@ -5,6 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
 		<version>2.6.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
@@ -16,6 +17,21 @@
 	<properties>
 		<java.version>11</java.version>
 	</properties>
+=======
+		<version>2.2.2.RELEASE</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+	<groupId>guru.springframework</groupId>
+	<artifactId>sfg-di</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>sfg-di</name>
+	<description>Dependency Injection examples</description>
+
+	<properties>
+		<java.version>11</java.version>
+	</properties>
+
+>>>>>>> di-assignment
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -26,6 +42,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+<<<<<<< HEAD
+=======
+			<exclusions>
+				<exclusion>
+					<groupId>org.junit.vintage</groupId>
+					<artifactId>junit-vintage-engine</artifactId>
+				</exclusion>
+			</exclusions>
+>>>>>>> di-assignment
 		</dependency>
 	</dependencies>
 
