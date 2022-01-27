@@ -1,6 +1,8 @@
 package com.example.sfgdi.controllers;
 
-import com.example.sfgdi.services.ConstructorGreetingService;
+
+import guru.springframework.sfgdi.controllers.SetterInjectedController;
+import guru.springframework.sfgdi.services.ConstructorGreetingService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
