@@ -1,6 +1,10 @@
 package guru.springframework.sfgdi.controllers;
 
+<<<<<<< HEAD
 import guru.springframework.pets.PetService;
+=======
+import com.springframework.pets.PetService;
+>>>>>>> di-in-java-config
 import org.springframework.stereotype.Controller;
 
 /**
