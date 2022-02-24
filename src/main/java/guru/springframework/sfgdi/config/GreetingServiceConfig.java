@@ -1,6 +1,6 @@
 package guru.springframework.sfgdi.config;
 
-<<<<<<< HEAD
+
 
 import guru.springframework.sfgdi.controllers.SetterInjectedController;
 import guru.springframework.sfgdi.services.ConstructorGreetingService;
@@ -11,8 +11,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class GreetingServiceConfig {
 
-    @Bean
-=======
 import guru.springframework.sfgdi.datasource.FakeDataSource;
 import guru.springframework.sfgdi.repositories.EnglishGreetingRepository;
 import guru.springframework.sfgdi.repositories.EnglishGreetingRepositoryImpl;
@@ -52,7 +50,6 @@ public class GreetingServiceConfig {
     }
 
 //    @Bean
->>>>>>> di-in-java-config
     ConstructorGreetingService constructorGreetingService(){
         return new ConstructorGreetingService();
     }
@@ -63,10 +60,8 @@ public class GreetingServiceConfig {
     }
 
     @Bean
-<<<<<<< HEAD
     SetterInjectedController setterInjectedController(){
         return new SetterInjectedController();
-=======
     SetterInjectedGreetingService setterInjectedGreetingService(){
         return new SetterInjectedGreetingService();
     }
@@ -82,6 +77,5 @@ public class GreetingServiceConfig {
         fakeDataSource.setJdbcurl(jdbcurl);
 
         return fakeDataSource;
->>>>>>> di-in-java-config
     }
 }
