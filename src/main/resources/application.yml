@@ -4,17 +4,18 @@ spring:
       - dog
       - EN
       - prod
+
+
 guru:
-  username: userYML
-  password: pwYML
-  jdbcurl: jdbcYML
+  username: userYMLDefaultProfile
+  password: pwYMLDefault
+  jdbcurl: jdbcYMLDefault
 
 ---
 
 spring:
-  profiles:
-    active: prod
+  profiles: prod
 guru:
-  username: userProd
-  password: pwProd
-  jdbcurl: jdbcProd
+  username: userProdYML
+  password: pwProdYML
+  jdbcurl: jdbcProdYML

@@ -19,14 +19,14 @@ import org.springframework.context.annotation.*;
 @Configuration
 public class GreetingServiceConfig {
 
-    @Bean
-    FakeDataSource fakeDataSource(SfgConfiguration sfgConfiguration){
-        FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setUsername(sfgConfiguration.getUsername());
-        fakeDataSource.setPassword(sfgConfiguration.getPassword());
-        fakeDataSource.setJdbcurl(sfgConfiguration.getJdbcurl());
-        return fakeDataSource;
-    }
+//    @Bean
+//    FakeDataSource fakeDataSource(SfgConfiguration sfgConfiguration){
+//        FakeDataSource fakeDataSource = new FakeDataSource();
+//        fakeDataSource.setUsername(sfgConfiguration.getUsername());
+//        fakeDataSource.setPassword(sfgConfiguration.getPassword());
+//        fakeDataSource.setJdbcurl(sfgConfiguration.getJdbcurl());
+//        return fakeDataSource;
+//    }
 
     @Bean
     PetServiceFactory petServiceFactory(){
