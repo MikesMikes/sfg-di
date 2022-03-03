@@ -1,0 +1,4 @@
+guru:
+  username: usernameDev
+  password: passwordDev
+  jdbcurl: jdbcUrlDev
